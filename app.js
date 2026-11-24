@@ -29,7 +29,7 @@ async function playMusic() {
     musicLabel.textContent = "Musiqa yoqilgan";
     musicBtn.setAttribute("aria-label", "Musiqani to'xtatish");
   } catch (error) {
-    musicLabel.textContent = "Avval music.mp3 qo'shing";
+    musicLabel.textContent = "Yana bir bor bosing";
   }
 }
 
